@@ -14,23 +14,22 @@
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/blog">blog</a>
-            <a class="extra" href="/fa">foods association</a>
-            <a class="extra" href="/contact">contact us</a>
-          </div>
-          <div class="post">
-            {{ content }}
-          </div>
-          <div class="footer">
-            <p> 
-              &copy; general apps 2014
-            </p>
-          </div>
-        </div>
-
+      <header>
+        <h1>{{ site.name }}</h1>
+      </header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/fa">Foods Association</a>
+        <a href="/contact">Contact Us</a>
+      </nav>
+      <article>
+        {{ content }}
+      </article>
+      <footer>
+        <p> 
+          &copy; general apps 2014
+        </p>
+      </footer>
     </body>
 </html>
