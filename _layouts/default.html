@@ -11,17 +11,18 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
     </head>
     <body>
       <header>
-        <h1>{{ site.name }}</h1>
+        <a href="/">{{ site.name }}</a>
       </header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/blog">Blog</a>
-        <a href="/fa">Foods Association</a>
-        <a href="/contact">Contact Us</a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/fa">Foods Association</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
       </nav>
       <article>
         {{ content }}
