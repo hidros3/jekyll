@@ -116,21 +116,20 @@ footer .rss img {
 /* home
 /*
 /*****************************************************************************/
-.home {
+.home h1, h2 {
   text-align: center;
+  color: #616D7E
 }
 
-.home .logo {
+.home .logo img {
   height: 235px;
   margin-bottom: 20px;
-}
-
-.home h1, h2 {
-  color: #616D7E
+  display: inline-block;
 }
 
 .home h1 {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .home h2 {
@@ -154,7 +153,6 @@ footer .rss img {
 
 .quote img, h1, blockquote {
   float: left;
-  clear: both;
 }
 
 .clear {
